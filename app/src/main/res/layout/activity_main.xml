@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="24dp"
+            android:text="1 / 6"
+            android:textColor="#241B17"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="12dp"
+            android:gravity="center"
+            android:padding="30dp">
+
+            <ImageView
+                android:id="@+id/imageArtwork"
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:contentDescription="Selected artwork"
+                android:scaleType="fitCenter"
+                android:src="@drawable/art1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="#FCE9DF"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deep Field Stellar Deaths"
+                android:textColor="#241B17"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/textArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Smacs Carin (2021)"
+                android:textColor="#241B17"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPrevious"
+                android:layout_width="0dp"
+                android:layout_height="58dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/art_button_tint"
+                android:text="Previous"
+                android:textAllCaps="false"
+                android:textColor="@color/art_button_text"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="0dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/art_button_tint"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/art_button_text"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <!-- Details - Left Side -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artwork Details"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#8B4B1A"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/textDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE9DF"
+                android:padding="14dp"
+                android:text="Artwork information"
+                android:textSize="17sp"
+                android:textColor="#241B17"
+                android:gravity="center"
+                android:lineSpacingExtra="3dp" />
+
+        </LinearLayout>
+
+        <!-- Buttons - Right Side -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonVisitWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Visit Website"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#8B4B1A" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:text="Back to Gallery"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#8B4B1A" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EC"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artwork Details"
+        android:textColor="#8B4B1A"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="35dp" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FCE9DF"
+        android:padding="24dp"
+        android:text="Artwork information"
+        android:textColor="#241B17"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#8B4B1A"
+        android:text="Back to Gallery"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonVisitWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#8B4B1A"
+        android:text="Visit Website"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
